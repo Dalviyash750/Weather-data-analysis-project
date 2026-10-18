@@ -15,7 +15,7 @@ import streamlit as st
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "src"))
 import spark_analysis as sa  # noqa: E402
 
-SAMPLE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "weather_data.csv")
+SAMPLE = os.path.join(os.path.dirname(os.path.abspath(__file__)),"weather_data.csv")
 
 st.set_page_config(page_title="Weather Data Analysis (PySpark)", page_icon="🌦️", layout="wide")
 
